@@ -7,15 +7,6 @@ from rest_framework.authtoken.models import Token
 
 from base import mods
 
-class AuthTestExecuted(BaseTestCase):
-    def setUp(self):
-        super().setUp()
-
-    def tearDown(self):
-        super().tearDown()
-    
-    def test_executed(self):
-        register_status('TEST_AUTH_EXECUTED')
         
 class AuthTestCase(APITestCase):
 

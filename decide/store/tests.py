@@ -16,16 +16,6 @@ from mixnet.models import Key
 from voting.models import Question
 from voting.models import Voting
 
-
-class StoreTestExecuted(BaseTestCase):
-    def setUp(self):
-        super().setUp()
-
-    def tearDown(self):
-        super().tearDown()
-    
-    def test_executed(self):
-        register_status('TEST_STORE_EXECUTED')
         
 class StoreTextCase(BaseTestCase):
 
